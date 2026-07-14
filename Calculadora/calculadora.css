@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#display{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px ;
+    text-align: right;
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}

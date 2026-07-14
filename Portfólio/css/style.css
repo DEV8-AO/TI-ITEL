@@ -1,0 +1,293 @@
+/*! Estilhos Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*! Estilhos para o header*/
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0.1px 4px 0px red;
+    font-size: 20px;
+}
+
+.logotipo {
+    font-size: 25px;
+    text-shadow: 0px 0px 10px  red;
+}
+
+.logotipo:hover{
+transform: scale(1.1);
+transition-duration: 0.5s;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+.link:hover {
+    color: brown;
+}
+
+li:hover{
+   transform: scale(1.2);
+   transition-duration: 0.4s;
+}
+
+
+.btn {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(165, 42, 42, 0.525);
+}
+
+.btn:hover{
+    transition-duration: 0.5s;
+    background-color: brown;
+}
+
+/*! Estilhos do home*/
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 90vh;
+    width: 85%;
+}
+
+.span1 {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top:100px;
+    width: 30%;
+    text-align: center;
+}
+
+.hello {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.span3 {
+    font-size: 22px;
+    margin-top:30px;
+}
+
+.boxes {
+    display: flex;
+    gap: 40px;
+    margin-top:40px;
+}
+
+.span1,
+.span4 {
+    background-color: rgba(255, 0, 0, 0.371);
+}
+
+.span4,
+.span5 {
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.span1,
+.hello,
+.span3,
+.span4,
+a,
+.btn2 {
+    color: white;
+}
+
+.span4:hover {
+    box-shadow: 0px 1px 8px 0px red;
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+}
+
+.span5 {
+    border: 2px rgba(165, 42, 42, 0.276) solid;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.span5:hover {
+    border: 2px brown solid;
+    background-color: rgba(165, 42, 42, 0.048);
+    transition-duration: 0.5s;
+}
+
+/*! Estilhos do sobre*/
+
+.about {
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.span6,
+.span7,
+.span5,
+.span2,
+.logotipo,
+.span7,
+.span9,
+.self{
+    color: brown;
+}
+
+img {
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    margin-left: 150px;
+    position: relative;
+    top: 70px;
+    box-shadow: 0px 1px 14px 0px brown;
+}
+
+img:hover{
+transform: translatey(-10px);
+transition-duration:0.4s;
+}
+
+
+.aboutt {
+    width: 50%;
+    position: relative;
+    top: -300px;
+    left: 500px;
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: brown;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 1px 8px 0px brown;
+    transition-duration: 0.5s;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding: 80px;
+    gap: 30px;
+
+}
+
+.text {
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.soft {
+    background-color: rgba(165, 42, 42, 0.281);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.soft:hover{
+box-shadow: 0px 1px 8px 0px brown;
+transition-duration: 0.7s;
+transform: translateY(-10px);
+}
+
+/*! Estilhos do hard*/
+
+.hard {
+    background-color: white;
+}
+
+.container3 {
+    display: flex;
+}
+
+.tools {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    position: relative;
+    left: -100px;
+}
+
+footer {
+    padding: 40px;
+}
+
+.nav{
+    position: relative;
+    left: 500px;
+    top: -55px;
+    width: 100px;
+}
+.na2{
+    position: relative;
+    left: 800px;
+    top: -215px;
+    width: 100px;
+}
+
+.ready{
+    background-color: rgba(165, 42, 42, 0.525);
+    padding: 80px;
+    height: 400px;
+}
+
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.743);
+    border-radius: 20px;
+   
+}
+
+.btn3{
+    background-color: brown;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-bottom: 60px;
+}
