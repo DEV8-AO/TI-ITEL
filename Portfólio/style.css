@@ -32,6 +32,7 @@ a {
 .logotipo {
     font-size: 25px;
     text-shadow: 0px 0px 10px red;
+    transition-duration: 0.8s;
 }
 
 .logotipo:hover {
@@ -62,14 +63,17 @@ li:hover {
     padding: 5px;
     border-radius: 50%;
     background-color: rgba(165, 42, 42, 0.525);
+    transition-duration: 0.5s;
 }
 
 .btn:hover {
     transition-duration: 0.5s;
     background-color: brown;
+    cursor: pointer;
 }
 
 /*! Estilhos do home*/
+
 .home {
     display: flex;
     align-items: center;
@@ -79,11 +83,7 @@ li:hover {
 
 .box {
     height: 90vh;
-
-
 }
-
-
 
 .span1 {
     padding: 8px;
@@ -121,6 +121,7 @@ li:hover {
     border-radius: 10px;
     font-size: 15px;
     text-align: center;
+    transition-duration: 0.5s;
 }
 
 .span1,
@@ -180,6 +181,7 @@ a,
     position: relative;
     top: 70px;
     box-shadow: 0px 1px 14px 0px brown;
+    transition-duration: 0.5s;
 }
 
 img:hover {
@@ -202,6 +204,7 @@ img:hover {
     padding: 10px;
     font-size: 15px;
     border-radius: 10px;
+    transition-duration: 0.5s;
 }
 
 .btn2:hover {
@@ -214,21 +217,31 @@ img:hover {
     display: flex;
     margin-top: 20px;
     padding: 80px;
-    gap: 30px;
+    gap: 80px;
+}
 
+.ImgV{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 40%;
+    background-color: rgba(255, 0, 0, 0.438);
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .text {
     color: white;
     margin: auto;
     font-size: 20px;
-    text-align: justify;
 }
 
 .soft {
-    background-color: rgba(165, 42, 42, 0.281);
+    background-color: rgba(165, 42, 42, 0.272);
     padding: 10px;
     border-radius: 10px;
+     transition-duration: 0.5s; 
 }
 
 .soft:hover {
@@ -256,7 +269,6 @@ img:hover {
 
 .skills {
     padding: 15px;
-    font-size: 20px;
     border-radius: 10px;
     background-color: rgba(165, 42, 42, 0.064);
     margin-top: 20px;
@@ -270,6 +282,12 @@ img:hover {
     transition-duration: 0.5s;
 
 }
+
+.ImgH{
+    width: 60px ;
+    height: 60px ;
+}
+
 
 /*! Estilhos do ready*/
 
@@ -323,8 +341,8 @@ footer {
 }
 
 .call {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     margin-top: 30px;
     transition-duration: 0.5s;
 }
@@ -341,4 +359,10 @@ footer {
 .lg>a:hover {
     color: red;
     transition-duration: 0.5s;
+}
+
+hr{
+  opacity: 0.3;
+    width: 77%;
+    margin: auto;
 }
