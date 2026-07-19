@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michhell Obama</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Watch</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/8.png" type="image/x-icon">
 </head>
+
 <body>
 
   <header>
-
-    <span>Michelli obama</span>
-    <a href="">Home</a>
-    <a href="">Blog</a>
-    <a href="">Project</a>
-    <a href="">Contatos</a>
-
+    <span class="Logo">DEV-8</span>
   </header>
-    
 
-  <section class="home">
-<h1>Micchheeli Obama</h1>
-  </section>
+  <div class="styleWatch">
+    <div class="time">
+    </div>
+  </div>
+
+  <script>
+    const updateTime = () => {
+      const now = new Date();
+
+      const hours = now.getHours().toString().padStart(2, "0");
+      const minutes = now.getMinutes().toString().padStart(2, "0");
+      const seconds = now.getSeconds().toString().padStart(2, "0");
+
+      const elemento = document.querySelector(".time");
+      elemento.textContent = `${hours} : ${minutes} : ${seconds}`;
+    }
+
+    setInterval(updateTime, 1000); // fora da função
+    window.addEventListener("load", updateTime);
+  </script>
 
 </body>
 </html>
-
-

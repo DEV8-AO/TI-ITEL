@@ -220,7 +220,7 @@ img:hover {
     gap: 80px;
 }
 
-.ImgV{
+.ImgV {
     width: 50px;
     height: 50px;
     position: relative;
@@ -241,7 +241,7 @@ img:hover {
     background-color: rgba(165, 42, 42, 0.272);
     padding: 10px;
     border-radius: 10px;
-     transition-duration: 0.5s; 
+    transition-duration: 0.5s;
 }
 
 .soft:hover {
@@ -283,9 +283,9 @@ img:hover {
 
 }
 
-.ImgH{
-    width: 60px ;
-    height: 60px ;
+.ImgH {
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -361,8 +361,8 @@ footer {
     transition-duration: 0.5s;
 }
 
-hr{
-  opacity: 0.3;
+hr {
+    opacity: 0.3;
     width: 77%;
     margin: auto;
 }
