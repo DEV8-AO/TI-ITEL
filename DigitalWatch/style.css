@@ -71,3 +71,21 @@ header {
     transition-duration: 0.5s;
     cursor: pointer;
 }
+
+@media (min-width:320px) {
+    .time {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:375px) {
+    .time {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:425px) {
+    .time {
+        font-size: 34px;
+    }
+}
