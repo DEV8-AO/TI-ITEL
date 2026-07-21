@@ -11,28 +11,35 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="imgs/8.png" type="image/x-icon">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <span class="logotipo">DEV-8</span>
-        <nav>
-            <ul class="menu">
-                <li> <a class="link" href="#">Home</a></li>
-                <li> <a class="link" href="projectos.html">Projetos</a></li>
-                <li> <a class="link" href="blog.html">Blog</a></li>
-                <li> <a class="link" href="contactos.html">Contacto</a></li>
-            </ul>
-        </nav>
-
-        <div class="btn">
-            <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
-        </div>
-    </header>
+    <div>
+        <header class="header  animate__animated animate__fadeInDown ">
+            <span><a class="logotipo" href="index.html">DEV-8</a></span>
+            <nav>
+                <ul class="menu">
+                    <li> <a class="link" href="#">Home</a></li>
+                    <li> <a class="link" href="projectos.html">Projetos</a></li>
+                    <li> <a class="link" href="blog.html">Blog</a></li>
+                    <li> <a class="link" href="contactos.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="btn">
+                <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
+            </div>
+        </header>
+    </div>
 
     <section class="home">
-        <div class="box">
-            <div class="span1"><strong><span>Estou disponível para projetos</span></strong></div>
+        <div class="box animate__animated animate__fadeInUp animate__delay-0.5s ">
+            <div class="span1"><strong>
+
+                    <button class="ponto">.</button>
+                    <span>Estou disponível para projetos</span></strong>
+            </div>
             <div class="hello">
                 <strong>Olá, Sou</strong> <br> <span class="span2"><strong>Miguel Quizomba</strong></span>
             </div>
@@ -45,13 +52,13 @@
     </section>
 
     <section class="about">
-        <div class="title">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="title">
             <strong>Sobre <span class="span6">Mim</span></strong>
         </div>
 
-        <img src="imgs/ft.jpeg">
+        <div data-aos="fade-up" data-aos-duration="1400" data-aos-once="true"><img src="imgs/ft.jpeg" class="img"></div>
 
-        <div class="aboutt">
+        <div data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="aboutt">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In delectus voluptate quidem nihil. Ex dolore nobis
             voluptatem dolorem pariatur, magnam nam minus sapiente culpa aperiam iusto? Nobis sit dolorum accusantium?
             <br> <br>
@@ -67,64 +74,71 @@
             </button>
 
         </div>
-
-
     </section>
 
-    <section class="vamos">
-        <div class="title" style="color: white;">
+    <section class="vamos">+
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="title" style="color: white;">
             <strong>Por que trabalhar <span class="span7">comigo?</span></strong>
         </div>
 
         <div class="container">
 
-            <div class="soft">
-                <p class="text" style="color: brown;text-align: center;"><strong>Código Limpo</strong>
-                </p>
-                <img class="ImgV"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/htmx/htmx-original.svg" />
-                <p class="text">
-                    <br> Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Consequuntur debitis
-                    porro illo, optio commodi quasi sint qui molestiae quia! Cumque possimus fugiat iure at, nihil quae
-                    sunt blanditiis iusto molestias?
-                </p>
+            <div data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+                <div class="soft">
+                    <p class="text" style="color: brown;text-align: center;"><strong>Código Limpo</strong>
+                    </p>
+                    <img class="ImgV"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/htmx/htmx-original.svg" />
+                    <p class="text">
+                        <br> Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Consequuntur debitis
+                        porro illo, optio commodi quasi sint qui molestiae quia! Cumque possimus fugiat iure at, nihil
+                        quae
+                        sunt blanditiis iusto molestias?
+                    </p>
+                </div>
             </div>
 
-            <div class="soft">
-                <p class="text" style="color: brown;text-align: center;"><strong>Performece</strong>
-                </p>
-                <img class="ImgV" src="imgs/icons8-relâmpago-48.png">
-                <p class="text">
-                    <br> Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Consequuntur debitis
-                    porro illo, optio commodi quasi sint qui molestiae quia! Cumque possimus fugiat iure at, nihil quae
-                    sunt blanditiis iusto molestias?
-                </p>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                <div class="soft">
+                    <p class="text" style="color: brown;text-align: center;"><strong>Performece</strong>
+                    </p>
+                    <img class="ImgV" src="imgs/icons8-relâmpago-48.png">
+                    <p class="text">
+                        <br> Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Consequuntur debitis
+                        porro illo, optio commodi quasi sint qui molestiae quia! Cumque possimus fugiat iure at, nihil
+                        quae
+                        sunt blanditiis iusto molestias?
+                    </p>
+                </div>
             </div>
 
-            <div class="soft">
-                <p class="text" style="color: brown;text-align: center;"><strong>Colaboração</strong>
-                </p>
-                <img class="ImgV" src="imgs/icons8-colaboração-48.png">
-
-                <p class="text">
-                    <br> Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Consequuntur debitis
-                    porro illo, optio commodi quasi sint qui molestiae quia! Cumque possimus fugiat iure at, nihil quae
-                    sunt blanditiis iusto molestias?
-                </p>
+            <div data-aos="fade-up" data-aos-duration="1100" data-aos-once="true">
+                <div class="soft">
+                    <p class="text" style="color: brown;text-align: center;"><strong>Colaboração</strong>
+                    </p>
+                    <img class="ImgV" src="imgs/icons8-colaboração-48.png">
+                    <p class="text">
+                        <br> Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Consequuntur debitis
+                        porro illo, optio commodi quasi sint qui molestiae quia! Cumque possimus fugiat iure at, nihil
+                        quae
+                        sunt blanditiis iusto molestias?
+                    </p>
+                </div>
             </div>
+
         </div>
     </section>
 
     <section class="hard">
 
-        <div class="title">
+        <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <strong>Tecnologias <span class="span9">& Ferramentas</span></strong>
         </div>
 
-        <div class="container5">
+        <div class="container5" data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
 
             <div class="skills">
                 <img class="ImgH"
@@ -182,7 +196,7 @@
     </section>
 
     <section class="ready">
-        <div class="container4">
+        <div class="container4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <div>
                 <strong>
                     <p style="font-size: 30px; margin-top: 60px;">Pronto para o próximo <span
@@ -218,7 +232,6 @@
                     </a>
                     <span>_</span>
                 </div>
-
             </div>
         </div>
 
@@ -245,6 +258,9 @@
         </div>
     </footer>
     <hr>
-</body>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
 </html>
