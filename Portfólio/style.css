@@ -198,7 +198,8 @@ a,
 .logotipo,
 .span7,
 .span9,
-.self {
+.self,
+.span8 {
     color: brown;
 }
 
@@ -399,4 +400,188 @@ hr {
 
 }
 
-/*!Animações da página principal*/
+/*!Style do projetos*/
+
+.main,
+.home-1 {
+    background-color: rgba(165, 42, 42, 0.264);
+}
+
+
+
+.text1 {
+    font-size: 1.4rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+}
+
+.container1 {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.btn1 {
+    font-size: 1.1rem;
+    color: rgba(255, 0, 0, 0.623);
+    border: 1.5px rgba(165, 42, 42, 0.338) solid;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.btn1:hover {
+    border: none;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: brown;
+}
+
+.container-1 {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin: 50px;
+    text-align: left;
+    font-size: 1.6rem;
+    
+}
+
+.btn-1 {
+    margin-bottom: 10rem;
+    background-color: rgba(255, 0, 0, 0.121);
+    padding: 20px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px red;
+    background-color: rgba(255, 255, 255, 0.799);
+}
+
+.btn-1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px brown;
+}
+
+/*!Style do contato*/
+
+.container-2 {
+    position: relative;
+}
+
+.main-2 {
+    margin: 40px;
+}
+
+.img-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.boX {
+    background-color: rgba(165, 42, 42, 0.653);
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    border: 0.5px rgba(255, 0, 0, 0.194) solid;
+    transition-duration: 0.3s;
+    height: 70px;
+}
+
+.boX:hover {
+    transform: translatex(6px);
+    border: 1px red solid;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.box-1 {
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    padding-bottom: 10rem;
+}
+
+.img-1 {
+    background-color: rgba(255, 0, 0, 0.406);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.box-2 {
+
+    background-color: rgba(165, 42, 42, 0.653);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    width: 40%;
+    position: absolute;
+    left: 50rem;
+    top: -1rem;
+
+}
+
+.box-2:hover {
+    box-shadow: 0px 0px 8px red;
+    border: 1px solid brown;
+}
+
+.txt-1 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.talk {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 10px;
+    border: 0.1px rgba(255, 0, 0, 0.281) solid;
+    background-color: rgba(0, 0, 0, 0.272);
+}
+
+.talk:hover {
+    border: 1px red solid;
+    background-color: white;
+}
+
+.env {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.409);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.env:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 8px brown;
+    transition-duration: 0.5s;
+}
+
+.txt- {
+    padding-bottom: 100px;
+}
+
+.container-0{
+display: flex;
+gap: 20px;
+justify-content: center;
+margin: 100px;
+}
+
+.btn-0{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid red;
+}
